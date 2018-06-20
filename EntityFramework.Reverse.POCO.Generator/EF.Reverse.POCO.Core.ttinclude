@@ -85,6 +85,7 @@
         public static string ConfigurationClassesModifiers = "internal";
         public static string DbContextClassModifiers = "public partial";
         public static string DbContextInterfaceModifiers = "public partial";
+        public static string DbSetPropertiesModifiers = "public";
         public static string MigrationClassModifiers = "internal sealed";
         public static string ResultClassModifiers = "public partial";
         public static bool DbContextClassIsPartial()

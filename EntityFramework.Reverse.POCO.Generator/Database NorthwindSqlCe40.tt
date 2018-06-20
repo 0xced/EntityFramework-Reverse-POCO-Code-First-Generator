@@ -27,6 +27,7 @@
     Settings.ConfigurationClassesModifiers = "public";
     Settings.DbContextClassModifiers       = "public";
     Settings.DbContextInterfaceModifiers   = "public";
+    Settings.DbSetPropertiesModifiers      = "public"; // Use "public virtual" for testing with a mocking framework without having to generate a fake DbSet, see https://msdn.microsoft.com/en-us/library/dn314429(v=vs.113).aspx
     Settings.MigrationClassModifiers       = "internal sealed";
     Settings.ResultClassModifiers          = "public";
     Settings.UseMappingTables = true; // If true, mapping will be used and no mapping tables will be generated. If false, all tables will be generated.
